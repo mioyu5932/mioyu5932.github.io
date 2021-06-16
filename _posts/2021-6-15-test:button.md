@@ -9,4 +9,4 @@ tags: ["測試", "TeXt"]
 
 [<i class="fas fa-download"></i> 下載（測試）](#){:.button.button--outline-info.button--rounded}
 
-[* *{:.fas.fa-download}下載（測試2）](#){:.button.button--outline-info.button--rounded}
+[* *{:.fas.fa-download} 下載（測試2）](#){:.button.button--outline-info.button--rounded}
