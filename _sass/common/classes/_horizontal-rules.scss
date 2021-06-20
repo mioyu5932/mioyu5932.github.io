@@ -1,6 +1,6 @@
 @mixin horizontal-rules() {
-  // border-bottom: 1px dashed #8c8b8b;
-  border-bottom: 1px dashed $text-color-l;
+  border-bottom: 1px dashed #8c8b8b;
+  //border-bottom: 1px dashed $text-color-l;
   &::after {
     content: '\002702';
     display: inline-block;
