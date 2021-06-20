@@ -1,13 +1,18 @@
 @mixin horizontal-rules() {
-  &::before {
-    display: block;
-    font-size: map-get($base, font-size-h2);
-    color: $text-color-l;
-    text-align: center;
-    letter-spacing: map-get($spacers, 4);
-    content: "...";
-  }
+  // border-bottom: 1px dashed #8c8b8b;
+  border-bottom: 1px dashed $text-color-l;
 }
+
+//@mixin horizontal-rules() {
+//  &::before {
+//    display: block;
+//    font-size: map-get($base, font-size-h2);
+//    color: $text-color-l;
+//    text-align: center;
+//    letter-spacing: map-get($spacers, 4);
+//    content: "...";
+//  }
+//}
 
 .horizontal-rules {
   @include horizontal-rules();
